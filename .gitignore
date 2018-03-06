@@ -1,0 +1,11 @@
+node_modules/*
+public/
+
+coverage
+*.swp
+*.swo
+*.log
+*.swn
+*.gz
+
+.DS_Store
