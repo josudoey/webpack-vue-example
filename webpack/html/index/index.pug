@@ -1,0 +1,9 @@
+doctype html
+html(lang="en")
+  head
+    title
+  body
+    nav.navbar.navbar-dark.bg-dark
+      .navbar-brand Demo
+    include ./content.html
+    script(src="./bundle/demo.js?_="+htmlWebpackPlugin.files.chunks.demo.hash)
